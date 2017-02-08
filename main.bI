@@ -1,12 +1,13 @@
 # root node
 
-1/2
+A "X" =B "Y"
 
-pack core
-/ class Sym
-#% tag = 'sym'
-#% val
-#% init
+pack core		" bI language core "
+/ class Sym		" abstract [symbol]ic base class "
+% tag = 'sym'	" class/type " 	
+% val			" value "
+% ref			" GC counter "
+% init			" constructor "
 #% dump
 #% head
 #% pad
@@ -14,3 +15,5 @@ pack core
 #% push
 #% operator/
 #% operator%
+
+Sym 
